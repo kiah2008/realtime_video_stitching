@@ -1,0 +1,14 @@
+prefix=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg
+exec_prefix=${prefix}
+libdir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/lib
+includedir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 57.28.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -latomic
+Cflags: -I${includedir}

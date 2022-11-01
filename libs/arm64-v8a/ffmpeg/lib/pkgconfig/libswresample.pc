@@ -1,0 +1,14 @@
+prefix=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg
+exec_prefix=${prefix}
+libdir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/lib
+includedir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 4.7.100
+Requires: 
+Requires.private: libavutil >= 57.28.100
+Conflicts:
+Libs: -L${libdir}  -lswresample 
+Libs.private: -lm -latomic
+Cflags: -I${includedir}

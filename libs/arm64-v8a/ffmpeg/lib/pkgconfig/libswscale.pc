@@ -1,0 +1,14 @@
+prefix=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg
+exec_prefix=${prefix}
+libdir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/lib
+includedir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 6.7.100
+Requires: 
+Requires.private: libavutil >= 57.28.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm -latomic
+Cflags: -I${includedir}
