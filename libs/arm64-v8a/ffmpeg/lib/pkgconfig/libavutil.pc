@@ -1,7 +1,7 @@
-prefix=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg
+prefix=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/
 exec_prefix=${prefix}
-libdir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/lib
-includedir=/home/kiah/worktmp/stitching/ffmpeg-kit-5.1.LTS/prebuilt/android-arm64-lts/ffmpeg/include
+libdir=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/lib
+includedir=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/include
 
 Name: libavutil
 Description: FFmpeg utility library

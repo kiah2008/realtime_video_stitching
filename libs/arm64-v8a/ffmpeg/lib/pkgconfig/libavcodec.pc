@@ -1,7 +1,7 @@
 prefix=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/
 exec_prefix=${prefix}
-libdir=${prefix}/lib
-includedir=/${prefix}/include
+libdir=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/lib
+includedir=/home/kiah/worktmp/stitching/inastitch-master/libs/arm64-v8a/ffmpeg/include
 
 Name: libavcodec
 Description: FFmpeg codec library
